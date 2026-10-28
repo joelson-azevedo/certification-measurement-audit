@@ -1,0 +1,101 @@
+item_id,form,domain,correct_option,anchor_item,scored_item
+ANC_01,AB,Equipment & Methods,A,True,True
+ANC_02,AB,Inspection Fundamentals,C,True,True
+ANC_03,AB,Inspection Fundamentals,D,True,True
+ANC_04,AB,Technical Interpretation,D,True,True
+ANC_05,AB,Safety & Procedures,B,True,True
+ANC_06,AB,Technical Interpretation,A,True,True
+ANC_07,AB,Technical Interpretation,C,True,True
+ANC_08,AB,Inspection Fundamentals,B,True,True
+ANC_09,AB,Technical Interpretation,D,True,True
+ANC_10,AB,Professional Practice,B,True,True
+ANC_11,AB,Equipment & Methods,C,True,True
+ANC_12,AB,Safety & Procedures,B,True,True
+ANC_13,AB,Professional Practice,C,True,True
+ANC_14,AB,Equipment & Methods,A,True,True
+ANC_15,AB,Technical Interpretation,B,True,True
+ANC_16,AB,Safety & Procedures,A,True,True
+ANC_17,AB,Inspection Fundamentals,A,True,True
+ANC_18,AB,Safety & Procedures,C,True,True
+ANC_19,AB,Professional Practice,D,True,True
+ANC_20,AB,Equipment & Methods,B,True,True
+A_01,A,Professional Practice,B,False,True
+A_02,A,Equipment & Methods,B,False,True
+A_03,A,Technical Interpretation,D,False,True
+A_04,A,Safety & Procedures,C,False,True
+A_05,A,Equipment & Methods,C,False,True
+A_06,A,Safety & Procedures,D,False,True
+A_07,A,Equipment & Methods,A,False,True
+A_08,A,Safety & Procedures,D,False,True
+A_09,A,Equipment & Methods,C,False,True
+A_10,A,Inspection Fundamentals,C,False,True
+A_11,A,Professional Practice,D,False,True
+A_12,A,Equipment & Methods,B,False,True
+A_13,A,Technical Interpretation,D,False,True
+A_14,A,Inspection Fundamentals,B,False,True
+A_15,A,Professional Practice,B,False,True
+A_16,A,Safety & Procedures,A,False,True
+A_17,A,Inspection Fundamentals,B,False,True
+A_18,A,Professional Practice,A,False,True
+A_19,A,Technical Interpretation,D,False,True
+A_20,A,Safety & Procedures,A,False,True
+A_21,A,Technical Interpretation,C,False,True
+A_22,A,Inspection Fundamentals,D,False,True
+A_23,A,Technical Interpretation,D,False,True
+A_24,A,Technical Interpretation,C,False,True
+A_25,A,Inspection Fundamentals,C,False,True
+A_26,A,Inspection Fundamentals,D,False,True
+A_27,A,Technical Interpretation,D,False,True
+A_28,A,Technical Interpretation,D,False,True
+A_29,A,Professional Practice,C,False,True
+A_30,A,Equipment & Methods,B,False,True
+A_31,A,Safety & Procedures,C,False,True
+A_32,A,Inspection Fundamentals,C,False,True
+A_33,A,Equipment & Methods,B,False,True
+A_34,A,Safety & Procedures,D,False,True
+A_35,A,Technical Interpretation,D,False,True
+A_36,A,Inspection Fundamentals,D,False,True
+A_37,A,Safety & Procedures,B,False,True
+A_38,A,Technical Interpretation,A,False,True
+A_39,A,Equipment & Methods,A,False,True
+A_40,A,Professional Practice,B,False,True
+B_01,B,Safety & Procedures,C,False,True
+B_02,B,Technical Interpretation,B,False,True
+B_03,B,Inspection Fundamentals,A,False,True
+B_04,B,Equipment & Methods,D,False,True
+B_05,B,Technical Interpretation,D,False,True
+B_06,B,Technical Interpretation,A,False,True
+B_07,B,Safety & Procedures,A,False,True
+B_08,B,Technical Interpretation,A,False,True
+B_09,B,Technical Interpretation,D,False,True
+B_10,B,Equipment & Methods,A,False,True
+B_11,B,Professional Practice,C,False,True
+B_12,B,Technical Interpretation,A,False,True
+B_13,B,Equipment & Methods,A,False,True
+B_14,B,Safety & Procedures,A,False,True
+B_15,B,Safety & Procedures,B,False,True
+B_16,B,Equipment & Methods,C,False,True
+B_17,B,Inspection Fundamentals,D,False,True
+B_18,B,Inspection Fundamentals,D,False,True
+B_19,B,Professional Practice,B,False,True
+B_20,B,Safety & Procedures,B,False,True
+B_21,B,Equipment & Methods,A,False,True
+B_22,B,Professional Practice,D,False,True
+B_23,B,Technical Interpretation,C,False,True
+B_24,B,Professional Practice,D,False,True
+B_25,B,Equipment & Methods,A,False,True
+B_26,B,Technical Interpretation,B,False,True
+B_27,B,Safety & Procedures,B,False,True
+B_28,B,Inspection Fundamentals,C,False,True
+B_29,B,Technical Interpretation,B,False,True
+B_30,B,Professional Practice,C,False,True
+B_31,B,Inspection Fundamentals,C,False,True
+B_32,B,Equipment & Methods,D,False,True
+B_33,B,Technical Interpretation,A,False,True
+B_34,B,Safety & Procedures,D,False,True
+B_35,B,Professional Practice,A,False,True
+B_36,B,Inspection Fundamentals,C,False,True
+B_37,B,Inspection Fundamentals,B,False,True
+B_38,B,Inspection Fundamentals,B,False,True
+B_39,B,Equipment & Methods,B,False,True
+B_40,B,Safety & Procedures,A,False,True

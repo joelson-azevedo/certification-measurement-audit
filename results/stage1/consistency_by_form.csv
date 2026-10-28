@@ -1,0 +1,3 @@
+form,raw_mismatch,percent_mismatch,pass_fail_mismatch,original_rule_mismatch,administrations_checked,long_rows_per_sitting_min,long_rows_per_sitting_max
+A,0,0,0,0,1234,60,60
+B,0,0,0,0,1166,60,60

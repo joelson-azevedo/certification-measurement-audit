@@ -1,0 +1,25 @@
+{
+  "cff-version": "1.2.0",
+  "message": "If you use this work, cite Joelson Azevêdo and the project title. Original code is MIT; documentation, reports, original figures and synthetic data are CC BY 4.0, subject to the third-party exceptions in LICENSE_POLICY.md.",
+  "type": "software",
+  "title": "Can You Defend Your Pass/Fail Decisions? An Independent Measurement Audit of a Professional Certification Examination",
+  "authors": [
+    {
+      "given-names": "Joelson",
+      "family-names": "Azevêdo",
+      "affiliation": "Independent Researcher"
+    }
+  ],
+  "license": [
+    "MIT",
+    "CC-BY-4.0"
+  ],
+  "abstract": "Independent blind analysis of a synthetic professional certification dataset. Scoring reconstruction and conditional measurement research with verified Tier 1 checks; full analytical replay is unavailable. Substantive validity and operational form comparability remain unestablished.",
+  "keywords": [
+    "measurement science",
+    "psychometrics",
+    "statistical validation",
+    "professional certification",
+    "synthetic data"
+  ]
+}

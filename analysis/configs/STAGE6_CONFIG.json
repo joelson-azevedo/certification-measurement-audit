@@ -1,0 +1,19 @@
+{
+  "nodes": 81,
+  "reference_group": "South",
+  "focal_group": "North",
+  "fdr_q": 0.05,
+  "component_supporting_p": 0.05,
+  "primary_family_size": 60,
+  "crossform_family_size": 120,
+  "optimizer": {"max_iterations": 100, "gradient_tolerance_per_candidate": 1e-8, "information_maximum_condition_number": 1e10},
+  "separation_policy": "linear-program separation diagnostic; withhold ordinary ML estimates and tests for complete/quasi separation; no penalized fallback",
+  "support": {"trim_quantile": 0.05, "bins": 10, "minimum_per_group_per_bin": 20, "grid_points": 201},
+  "reference_distribution": "equal-weight mixture of the two empirical matching distributions, restricted to common supported bins",
+  "purification": {"maximum_additional_passes": 3, "minimum_matching_items": 30, "minimum_per_domain": 3, "removal_rule": "cumulative union of within-form omnibus BH-screened items; ANC_14 always excluded; no re-entry"},
+  "rest_score": "prorated credit: matching-set size times observed correct proportion; no credit imputation for unrelated omissions",
+  "mantel_haenszel": {"requested_strata": 10, "continuity_correction": false, "zero_cell_shift": false, "minimum_informative_strata": 2},
+  "priority_per_form": 4,
+  "initialization_randomness": "none",
+  "stage_boundary": "Stage 6 only; no linking/equating, classification consistency, standard setting, cut validation, final certification decisions or operational item changes"
+}

@@ -1,0 +1,13 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["analysis"]
+addopts = "-p no:cacheprovider"
+
+[tool.audit_release]
+author = "Joelson Azevêdo"
+affiliation = "Independent Researcher"
+project_title = "Can You Defend Your Pass/Fail Decisions?"
+intended_repository = "https://github.com/joelson-azevedo/certification-measurement-audit"
+intended_visibility = "public"
+publication_authorization = "awaiting separate explicit authorization"
+license_policy = "LICENSE_POLICY.md"

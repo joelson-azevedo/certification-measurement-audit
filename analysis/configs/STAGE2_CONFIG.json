@@ -1,0 +1,21 @@
+{
+  "ctt": {
+    "very_difficult_below": 0.2,
+    "very_easy_above": 0.9,
+    "low_discrimination_below": 0.2,
+    "attention_discrimination_below": 0.3,
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261021,
+    "alpha_change_tolerance": 1e-12,
+    "material_alpha_change": 0.005
+  },
+  "distractors": {
+    "rare_below": 0.05,
+    "performance_groups": 5,
+    "minimum_band_n": 30,
+    "minimum_option_n": 5,
+    "mean_rest_margin": 1.0,
+    "rising_selection_margin": 0.05,
+    "lower_band_error_opportunity": 0.2
+  }
+}

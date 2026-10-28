@@ -1,0 +1,26 @@
+{
+  "primary_link": {"anchor_set": "S18", "method": "Stocking-Lord", "reference_form": "A", "source_form": "B"},
+  "secondary_link": "S18 Haebara-directional-A, descriptive point sensitivity only",
+  "reference_populations": ["A_standard_normal", "B_identification_on_A", "equal_identification_mixture"],
+  "primary_reference": "A_standard_normal",
+  "scenarios": [
+    {"scenario": "O", "cut_A": 42, "cut_B": 42, "role": "unchanged original operational rules; modeled hypothetical pairing"},
+    {"scenario": "R39", "cut_A": 42, "cut_B": 39, "role": "research-only Stage 8 point correspondence; no recommended standard"},
+    {"scenario": "R40", "cut_A": 42, "cut_B": 40, "role": "research-only fixed uncertainty sensitivity"},
+    {"scenario": "R38", "cut_A": 42, "cut_B": 38, "role": "permissive research-only quantization sensitivity"}
+  ],
+  "report_grid": {"lower": -4.0, "upper": 4.0, "points": 1601},
+  "monotonicity_grid": {"lower": -6.0, "upper": 6.0, "points": 2401},
+  "near_cut_A_expected_scores": [38, 39, 40, 41, 42, 43, 44, 45, 46],
+  "exploratory_probability_bands": [[0.2, 0.8], [0.1, 0.9]],
+  "quadrature": {"resolutions": [81, 161, 321, 641, 1281], "maximum_joint_cell_difference": 1e-8, "maximum_kappa_difference": 1e-7},
+  "posterior": {"prior": "source-form N(0,1); B source posterior is mapped to A for future-form evaluation", "resolutions": [81, 161, 321, 641, 1281], "maximum_future_pass_difference": 1e-5, "maximum_EAP_difference": 1e-5, "band_bootstrap": true, "band_bootstrap_procedures": ["bootstrap"], "band_bootstrap_scores": [38, 46], "uncertainty": "posterior SD of conditional passing probability and future Bernoulli variance decomposition; source/link parameter intervals for fixed-original-sample score-band means"},
+  "validation": {"probability_tolerance": 1e-11, "identity_tolerance": 1e-10, "monotonicity_tolerance": 1e-12, "Stage8_marginal_agreement_tolerance": 1e-8, "original_EAP_reproduction_tolerance": 1e-10},
+  "uncertainty": {"procedures": ["bootstrap", "covariance"], "pilot_replicates": 3, "minimum_valid_replicates": 100, "minimum_valid_fraction": 0.9, "interval": "pointwise linear empirical 2.5th/97.5th percentiles, fixed S18", "conditional_grid": {"lower": -2.0, "upper": 1.0, "points": 121}, "conditional_location": "fixed original Form A metric grid including exact original A TCC=38..46 roots; separately report replicate-specific A TCC=42 location", "dynamic_boundaries": ["continuous_ge42", "nearest_half_up_ge42"], "selection": "reuse Stage 8 attempt-matched integer boundary; do not maximize agreement", "new_random_draws": false, "inherited_bootstrap_seed": 20261127, "inherited_covariance_seed": 20261227},
+  "monte_carlo": {"draws": 500000, "seed": 20261029, "standard_error_multiplier": 6.0, "absolute_tolerance_floor": 0.0001, "scope": "independent controlled fixture with new latent/response streams; numerical validation only, no hidden generating truth"},
+  "positive_agreement": "2*PP/(2*PP+PF+FP)",
+  "negative_agreement": "2*FF/(2*FF+PF+FP)",
+  "kappa": "(integrated agreement - marginal chance agreement)/(1 - marginal chance agreement); undefined for degenerate marginals",
+  "accuracy": "substantive classification accuracy unavailable; no optional model-defined competent/not-competent calculation",
+  "scope": "Stage 9 only; hypothetical conditional-independent repeated administrations at fixed theta; no operational decisions, standard setting, item actions, application, dashboard or final PDF"
+}

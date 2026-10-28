@@ -1,0 +1,18 @@
+{
+  "nodes": 81,
+  "primary_item_specification": "full_signed_60",
+  "primary_missing_specification": "missing_ignored",
+  "pilot_valid_replicates": 5,
+  "valid_replicates": 500,
+  "maximum_attempts": 550,
+  "pilot_seeds": {"A": 20261025, "B": 20261026},
+  "reference_seeds": {"A": 20261125, "B": 20261126},
+  "quantile_method": "higher",
+  "familywise_quantiles": [0.95, 0.99],
+  "family_definition": "1770 positive adjusted Q3 pair statistics within each separately analyzed form; no combined cross-form family claim",
+  "priority_pairs_per_form": 15,
+  "subgroup_fields": ["region", "experience_band"],
+  "minimum_paired_n_for_subgroup_reporting": 60,
+  "sensitivity_reference": "descriptive only; no reuse of 60-item missing-aware formal thresholds",
+  "stage_boundary": "Stage 5 only; no DIF, linking/equating, classification consistency, standard setting, testlet or multidimensional fitting"
+}

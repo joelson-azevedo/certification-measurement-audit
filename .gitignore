@@ -1,0 +1,13 @@
+# Local runtime and credential artifacts
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.test_runs/
+verification/
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+credentials.json

@@ -1,0 +1,7 @@
+population,form,administrations,passes,fails,pass_rate,interpretation
+all administrations,ALL,2400,1532,868,0.6383333333333333,observed unadjusted proportions; no form-comparability inference
+all administrations,A,1234,851,383,0.6896272285251216,observed unadjusted proportions; no form-comparability inference
+all administrations,B,1166,681,485,0.5840480274442539,observed unadjusted proportions; no form-comparability inference
+first attempts,ALL,2160,1465,695,0.6782407407407407,observed unadjusted proportions; no form-comparability inference
+first attempts,A,1109,814,295,0.7339945897204689,observed unadjusted proportions; no form-comparability inference
+first attempts,B,1051,651,400,0.6194100856327307,observed unadjusted proportions; no form-comparability inference

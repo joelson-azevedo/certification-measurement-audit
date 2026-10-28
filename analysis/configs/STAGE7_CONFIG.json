@@ -1,0 +1,48 @@
+{
+  "reference_form": "A",
+  "source_form": "B",
+  "direction": "theta_A = scale_A * theta_B + shift_B; scale_A > 0",
+  "calibration_nodes": 81,
+  "anchor_sets": {"S20": [], "S19": ["ANC_14"], "S18": ["ANC_14", "ANC_18"]},
+  "primary_anchor_set": "S18",
+  "primary_method": "Stocking-Lord",
+  "secondary_method": "Haebara-directional-A",
+  "grids": {
+    "primary": {"lower": -3.0, "upper": 3.0, "points": 601},
+    "fine": {"lower": -3.0, "upper": 3.0, "points": 1201},
+    "broad": {"lower": -4.0, "upper": 4.0, "points": 801}
+  },
+  "weights": "normalized standard-normal trapezoidal weights on the Form A grid",
+  "optimizer": {
+    "scale_lower": 0.25, "scale_upper": 4.0, "shift_limit": 3.0,
+    "max_iterations": 500, "gtol": 1e-10, "ftol": 1e-15,
+    "verified_gradient_tolerance": 1e-7, "boundary_tolerance": 1e-5,
+    "starts": [[1.0, 0.0], [0.8, -0.2], [1.25, 0.2], [1.0, 0.5], [1.0, -0.5]]
+  },
+  "observed_support_quantiles": [0.01, 0.99],
+  "release_safeguards": {
+    "minimum_anchors": 15, "minimum_anchors_per_domain": 2,
+    "maximum_absolute_blueprint_share_difference": 0.15,
+    "minimum_anchor_information_in_supported_range": 0.5,
+    "minimum_anchor_to_full_information_ratio_at_A_expected_42": 0.15,
+    "maximum_anchor_tcc_rmse": 0.5,
+    "maximum_eligible_item_integrated_absolute_probability_difference": 0.10,
+    "maximum_eligible_item_absolute_probability_difference_supported": 0.25,
+    "maximum_method_scale_difference": 0.05, "maximum_method_shift_difference": 0.10,
+    "maximum_fine_grid_constant_difference": 0.005, "maximum_broad_grid_constant_difference": 0.02,
+    "maximum_leave_one_out_scale_change": 0.10, "maximum_leave_one_out_shift_change": 0.15,
+    "maximum_bootstrap_scale_interval_width": 0.4, "maximum_bootstrap_shift_interval_width": 0.6,
+    "interpretation": "prespecified descriptive/numerical release safeguards, not significance cutoffs, universal anchor standards or proof of invariance"
+  },
+  "uncertainty": {
+    "pilot_replicates": 3, "pilot_seed": 20261027,
+    "bootstrap_valid_replicates": 200, "bootstrap_maximum_attempts": 240, "bootstrap_seed": 20261127,
+    "covariance_valid_draws": 1000, "covariance_maximum_attempts": 1100, "covariance_seed": 20261227,
+    "maximum_failure_fraction": 0.10,
+    "percentile_method": "linear",
+    "replicate_link_starts": "method-specific point estimate plus identity; all attempts retained",
+    "replicate_item_uncertainty": "not recomputed: point-estimator bootstrap; original Stage 4 optimizer, quadrature and broad bounds retained",
+    "anchor_sets_refitted": "S18 fixed; no data-adaptive anchor reselection in uncertainty replicates"
+  },
+  "scope": "Stage 7 only; no observed/raw-score equating, passing-score conversion, classification consistency, cut validation or certification-decision changes"
+}

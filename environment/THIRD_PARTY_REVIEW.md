@@ -1,0 +1,11 @@
+# Dependency and attribution review
+
+Dependencies are imported, not vendored. The observed local distributions report these license families: NumPy/pandas/SciPy BSD-family terms, pytest MIT, pypdf BSD-3-Clause, and Pillow MIT-CMU. Transitive package metadata and licenses were inspected during local environment preparation. Those summaries are not a legal opinion or a substitute for the actual installed distribution's terms.
+
+No third-party binary, source distribution, wheel, proprietary font file or dependency license grant is bundled as project-owned material. A future wheelhouse/binary distribution would need its own notices and review, including numerical runtime components. The existing executive PDF font subsets are retained unchanged; recorded embedding flags support embedding but do not independently establish the publisher's full chain of rights.
+
+Source reports contain references to methodological literature. The selected excerpts describe the audit's own implementation; no complete third-party article was copied. External services were not contacted during this release validation, and citations are not represented as newly verified external endorsements.
+
+Author-approved project rights and mixed licenses are applied as described in [license policy](../LICENSE_POLICY.md). They do not override independent dependency, literature or font rights. No dependency license is asserted to determine the project license automatically. The original PDF font subsets are preserved only within the explicitly approved unchanged reports, with their original rights retained; no standalone font distribution is made.
+
+The actual embedded font name tables were inspected locally: their retained license descriptions expressly permit embedding subject to the font embedding restrictions, and all used subsets have editable-embedding fsType=8 with no restricted-embedding or no-subsetting flag. Original copyright and applicable layout-logic license descriptions remain inside the unchanged font streams. This supports distributing the approved documents with their embedded subsets; it grants no standalone font redistribution rights and does not place the font programs under the project CC license.

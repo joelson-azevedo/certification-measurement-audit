@@ -1,0 +1,21 @@
+{
+  "parallel_replicates": 100,
+  "parallel_percentile": 95,
+  "parallel_seed": 20261023,
+  "pilot_replicates": 3,
+  "maximum_factors": 5,
+  "tetrachoric": {
+    "continuity_correction": 0.5,
+    "sparse_cell_below": 5,
+    "minimum_pair_n": 20,
+    "probability_tolerance": 1e-10,
+    "quadrature_tolerance": 1e-8,
+    "quadrature_nodes": 32,
+    "max_iterations": 45
+  },
+  "efa_conditioning": {
+    "floor": 1e-6,
+    "maximum_adjustment": 0.05,
+    "maximum_relative_frobenius": 0.05
+  }
+}
